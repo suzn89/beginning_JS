@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+  <title>연산자</title>
+  <script>
+    var num1 = 15;
+    var num2 = 2; 
+    var result;
+    result = num1 + num2;
+    document.write(result,'<br>'); // 17
+    
+    result = num1 - num2;
+    document.write(result,'<br>'); //13
+
+    result = num1 * num2;
+    document.write(result,'<br>');  //30
+
+    result = num1 / num2;
+    document.write(result,'<br>'); // 7.5
+
+    result = num1 % num2;
+    document.write(result,'<br>'); // 1
+    
+    // 문자열 연산
+    var t1 = "학교종이";
+    var t2 = " 땡댕땡 ";
+    var t3 = 8282;
+    var t4 = " 어서모이자 ";
+    var result;
+
+    result = t1 + t2 + t3 + t4;
+    document.write(result);
+    document.write(typeof result, '<br>');
+
+
+    // 대입연산자
+    var num10 = 10;
+    var num11 = 3;
+
+    num10 += num11;
+    document.write(num10, '<br>');
+    
+    num10 -= num11;
+    document.write(num10, '<br>');
+
+    num10 *= num11;
+    document.write(num10, '<br>');
+
+    num10 /= num11;
+    document.write(num10, '<br>');
+
+    num10 %= num11;
+    document.write(num10, '<br>');
+  
+    var str = "<table border='1'>";
+    str += "<tr>";
+    str += "<td>1</td><td>2</td><td>3</td>";
+    str += "</tr>"
+    str += "</table>"
+
+    document.write(str);
+
+    // 증감연산자
+    var num20 = 10;
+    var num21 = 20;
+    var result;
+
+    num20--;
+    document.write(num20,'<br>');
+
+    num20++;
+    document.write(num20, '<br>');
+
+    result = num21++;
+    document.write(result);
+    document.write(num21);
+
+    result = ++num21;
+    document.write(result);
+    document.write(num21);
+
+    
+    
+  </script>	 
+</head>
+<body>
+</body>
+</html>
